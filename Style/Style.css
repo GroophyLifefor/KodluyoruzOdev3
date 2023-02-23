@@ -1,0 +1,42 @@
+html,
+body {
+  background-color: rgb(224, 201, 169);
+}
+
+.boxing {
+  margin: 30px auto auto 30px;
+  display: block;
+}
+
+#parentContainer {
+  /* position: relative; */
+}
+#childContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#childContainer > span {
+    color: rgb(150, 49, 2);
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 6px;
+}
+
+#childContainer > span > span {
+    color: black;
+}
+
+header {
+    color: white;
+    background-color: rgb(150, 49, 2);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline;
+}
+
+.right {
+  float: right;
+}
